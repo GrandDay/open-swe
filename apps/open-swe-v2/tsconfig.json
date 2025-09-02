@@ -1,5 +1,4 @@
 {
-  "extends": "@tsconfig/recommended",
   "compilerOptions": {
     "target": "ES2021",
     "lib": ["ES2023"],
@@ -18,7 +17,7 @@
     "strictFunctionTypes": false,
     "outDir": "dist",
     "rootDir": ".",
-    "types": ["jest", "node"],
+    "types": ["node"],
     "resolveJsonModule": true,
     "isolatedModules": true
   },
